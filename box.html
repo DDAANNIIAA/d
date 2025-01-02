@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competition Box</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- إضافة الصورة في الجزء العلوي -->
+    <div class="logo-container">
+        <img src="iteee cup 2 Logo.png" alt="Image" />
+    </div>
+    <div class="image-container">
+        <img src="line.png" alt="Image" />
+    </div>
+    
+    <div class="container">
+        <div class="box" id="cs">
+            <div class="score">0</div>
+            <div class="team-name">CS</div>
+            <div class="controls">
+                <button onclick="increaseScore('cs')">+1</button>
+                <button onclick="decreaseScore('cs')">-1</button>
+            </div>
+        </div>
+        <div class="box" id="cis">
+            <div class="score">0</div>
+            <div class="team-name">CIS</div>
+            <div class="controls">
+                <button onclick="increaseScore('cis')">+1</button>
+                <button onclick="decreaseScore('cis')">-1</button>
+            </div>
+        </div>
+        <div class="box" id="cys">
+            <div class="score">0</div>
+            <div class="team-name">CYS</div>
+            <div class="controls">
+                <button onclick="increaseScore('cys')">+1</button>
+                <button onclick="decreaseScore('cys')">-1</button>
+            </div>
+        </div>
+        <div class="box" id="bit">
+            <div class="score">0</div>
+            <div class="team-name">BIT</div>
+            <div class="controls">
+                <button onclick="increaseScore('bit')">+1</button>
+                <button onclick="decreaseScore('bit')">-1</button>
+            </div>
+        </div>
+        <div class="box" id="ds">
+            <div class="score">0</div>
+            <div class="team-name">DS</div>
+            <div class="controls">
+                <button onclick="increaseScore('ds')">+1</button>
+                <button onclick="decreaseScore('ds')">-1</button>
+            </div>
+        </div>
+        <div class="box" id="ai">
+            <div class="score">0</div>
+            <div class="team-name">AI</div>
+            <div class="controls">
+                <button onclick="increaseScore('ai')">+1</button>
+                <button onclick="decreaseScore('ai')">-1</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
